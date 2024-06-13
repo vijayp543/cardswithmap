@@ -1,0 +1,83 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 2px;
+}
+
+.course-card {
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px #9b8d8d1a;
+  background-color: white;
+  /* margin: 0.1rem; */
+  /* justify-content: space-around; */
+  padding: 5px 25px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  /* background-color: lightblue; */
+  height: 350px;
+}
+
+.course-card:hover {
+  background-color: #27a5e3;
+}
+
+.course-card.dark {
+  background-color: #27272a;
+}
+
+.course-card .image-container {
+  position: relative;
+}
+
+/* .course-card .image-container:hover {
+    position: relative;
+    /* background-color: red; */
+/* } */
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.course-card .badge {
+  position: absolute;
+  top: -0.7rem;
+  left: -0.0rem;
+  background-color: #19397e;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75rem 0.35rem;
+  border-radius: 0.25rem;
+  margin-top: 0px;
+}
+
+.course-card .badge:hover {
+  background-color: #169be8;
+}
+
+.course-card .content {
+  padding: 1.5rem;
+}
+
+.course-card .content .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #18181b;
+}
+
+.course-card.dark .content .title {
+  color: white;
+}
+
+.course-card .content .description {
+  color: #52525b;
+}
+
+.course-card.dark .content .description {
+  color: #d1d5db;
+}
